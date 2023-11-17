@@ -1,0 +1,35 @@
+const  express = require("express"); // express is function stored in a variable express
+const app = express();
+const path = require("path");
+
+const imagePath = path.join(__dirname,'kalampic');/*these two line for using image in the html page so tht the user can view it*/ 
+app.use('/kalampic',express.static(imagePath));
+
+const viewPath =path.join(__dirname,'htmlpage');//htmlpage where our html pages are located
+app.use('/kalampic',express.static(path.join(__dirname,'kalampic')));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(viewsPath, 'home.htmll'));
+  });
+  
+  app.get('/about', (req, res) => {
+    res.sendFile(path.join(viewsPath, 'about.html'));
+  });
+  
+  app.get('/achivements', (req, res) => {
+    res.sendFile(path.join(viewsPath, 'achivements.html'));
+  });
+  app.get('/form',(req,res) =>{
+    res.sendFile(path.join(viewPath,'form.html'))
+  });
+
+app.get("/html",(req,res)=>{ // this for nligris
+    res.sendFile(path.join(__dirname,"nligiris.html"));
+})
+const PORT = 3005;
+app.listen(PORT,()=>{// to make the server listn 
+    console.log("server1 is running");
+}
+)
+
+

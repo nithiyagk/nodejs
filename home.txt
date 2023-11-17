@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>
+KING OF POP
+</title>
+<style>
+header{
+font-family:Algerian;
+background-color:#ffb3de ;
+}
+nav ul {
+margin-left:1000px;
+list-style: none;
+display: flex;}
+
+nav li {
+		margin-right: 20px;
+	}
+nav a {
+		color: #DC143C;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 18px;
+		transition: color 0.3s;
+	}
+
+img
+{
+margin-left:100px;
+
+}
+body
+{
+background-color:#c9ffe5 ;
+}
+aside
+{
+float:right;
+font-size:30px;
+text-align:center;
+passing:100px;
+height:500px;
+width:400px;
+margin-left:200px;
+margin-right:200px;
+margin-top:90px;
+}
+
+marquee{
+background-color:#e6e6fa;
+font-size:22px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>
+A MOMENT OF GETING VIBE
+</h1>
+<nav>
+			<ul>
+				<li><a href="about.html">ABOUT</a></li>
+                        <li><a href="achivements.html">ACHIVEMENTS</a></li>
+                        <li><a href="gif.html">GIF WORLD</a></li>
+                        <li><a href="form.html">FEEDBACK</a></li>
+			</ul>
+</nav>
+</header>
+  
+<img src ="jason.jpg" height="600px"; width="500px";>
+
+<aside>
+
+This website is about Michael Jackson <q>KING OF POP</q>.We created a small contant about a <q>famous dancer,song writter, singer</q>in this world. Till now he played a vital role in every dreamers life.He ruled the world for 50 years with his talent I hope, now he playing the same role in heaven.Just watch our creation and comment your experience!
+
+</aside>
+<footer>
+<p>
+<br>
+<br>
+<marquee>
+
+@copyrightsreaserved_2023
+<br>
+contact us:9698489953</marquee>
+</body>
+</html>

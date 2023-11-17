@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+thankyou
+</title>
+<style>
+h1{
+text-align:center;
+}
+p{
+font-size:40px;
+border:2px solid black;
+height:400px;
+width:400px;
+text-align:center;
+margin-left:500px;
+background-color:#e7feff;
+}
+body{
+background-color:#aaf0d1;
+}
+</style>
+</head>
+<body>
+<h1>
+YOUR RESPONSE IS ACCEPTED
+</h1>
+<p>
+<br>
+<br>
+<br>
+THANK YOU FOR VISITING OUR PAGE...
+</body>
+</html>
